@@ -4,7 +4,15 @@
 
 ## Overview
 
-This project involves developing and deploying a Microservices-based containerized application using SpringBoot and Amazon Relational Database Services (RDS) on Kubernetes. The objective is to enhance scalability and resilience, with a baseline configuration of at least three pods continuously running.
+For this assignment, our objective is to develop and deploy a Microservices based containerized application using SpringBoot and Amazon Relational Database Services (RDS) on Kubernetes to enhance its scalability and resilience. Our baseline configuration involves running at least three pods continuously.
+
+To manage the Kubernetes services, we utilize Rancher. Additionally, we have established a CI/CD pipeline that involves a Git source code repository on GitHub and Jenkins for automated build and deployment of the application on Kubernetes.
+
+When changes are made to the code in the GitHub repository, the pipeline automatically triggers a build and deployment process to ensure that the latest version of the application is always available on Kubernetes.
+
+We test the working of our containerized application by calling different CRUD API calls using Postman.
+
+Note: These are as part of document, location can be seen in the folder Structure i.e. SWE645-Assignment3.pdf
 
 ## Contents
 
