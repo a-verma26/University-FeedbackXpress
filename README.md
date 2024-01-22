@@ -26,7 +26,7 @@ Note: These are as part of document, location can be seen in the folder Structur
 
 ## Links
 
-**Note:** Some URLs might not work due to the termination of AWS Lab and GKE clusters after the demo video.
+**Note:** Note: Please note that the URLs mentioned below might not work as the AWS Lab (Closes after 4 hours) and GKE clusters were terminated after the demo video was recorded due to their high cost.
 
 - [LoadBalancer Access](https://34.194.61.172/k8s/clusters/c-w2vxb/api/v1/namespaces/default/services/http:spring-boot-assignment:8080/proxy/)
 - [Jenkins](http://44.194.15.192:8080)
